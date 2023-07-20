@@ -30,7 +30,10 @@ json
 
 Open the Package Manager Console in Visual Studio.
 Run the following command to apply the migrations and create the necessary tables in the database:
-    Update-Database
+
+- Update-Database
+
+run the App with F5 Or with the run button 
 
 ### Front-End Setup
 
@@ -38,17 +41,21 @@ Navigate to the frontend directory:
 
 bash
 Copy code
-cd My-Library-main.zip\My-Library-main\Front-end\My-library
+-cd My-Library-main.zip\My-Library-main\Front-end\My-library
 
 Install the dependencies:
 bash
 
 Copy code
 
-npm install
+-npm install
 
 Make sure the Api Link same as the back .
 
 Add bootstrap for the views
 
-npm install bootstrap
+-npm install bootstrap
+
+To run The app in Bash
+
+-npm run dev
